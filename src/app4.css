@@ -1,0 +1,24 @@
+.app4 {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid green;
+  position: relative;
+}
+.app4 .circle {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  position: absolute;
+  right: 50%;
+  top: 25%;
+  margin-right: -15vh;
+  animation: start 2s infinite alternate;
+}
+@keyframes start {
+  0% {
+    background: #10893e;
+  }
+  100% {
+    background: #ff3501;
+  }
+}

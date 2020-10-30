@@ -1,0 +1,23 @@
+.app2 {
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid orange;
+}
+ol {
+  list-style: none;
+  display: flex;
+}
+.app2 .page1 li {
+  width: 50%;
+  color: #f3f3f3;
+  border: 1px solid orange;
+}
+.app2 .page1 > li.acb {
+  background: #ff3501;
+}
+.app2 .page2 > li {
+  display: none;
+}
+.app2 .page2 > li.act {
+  display: block;
+}

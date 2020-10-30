@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#app1 {
+  border: 1px solid red;
+  height: 50vh;
+  width: 50vw;
+}
+#app1 > button {
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.app2 {
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid orange;
+}
+ol {
+  list-style: none;
+  display: flex;
+}
+.app2 .page1 li {
+  width: 50%;
+  color: #f3f3f3;
+  border: 1px solid orange;
+}
+.app2 .page1 > li.acb {
+  background: #ff3501;
+}
+.app2 .page2 > li {
+  display: none;
+}
+.app2 .page2 > li.act {
+  display: block;
+}
+
+.app3 {
+  border: 1px solid blue;
+  height: 50vh;
+  width: 50vw;
+}
+.app3 .square {
+  width: 10vh;
+  height: 10vh;
+  margin-top: 10vw;
+  margin-left: 10vw;
+  background: #007acc;
+  transition: transform 2s;
+}
+.app3 .square.move{
+    transform: translateX(30vh);
+}
+.app4 {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid green;
+  position: relative;
+}
+.app4 .circle {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  position: absolute;
+  right: 50%;
+  top: 25%;
+  margin-right: -15vh;
+  animation: start 2s infinite alternate;
+}
+@keyframes start {
+  0% {
+    background: #10893e;
+  }
+  100% {
+    background: #ff3501;
+  }
+}
+
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
